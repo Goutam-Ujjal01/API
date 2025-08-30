@@ -24,7 +24,7 @@ function newUserDetails(users) {
             <img src=" ${user?.picture?.large}" alt="">
             
        
-       `;
+       `
 
        UiDiv.appendChild(div)
        
