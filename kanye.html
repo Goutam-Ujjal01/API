@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kanye API</title>
+</head>
+
+<body>
+    <button onclick="loadkanya()">load kanya</button>
+
+
+
+
+
+    <script>
+        function loadkanya() {
+            fetch("https://api.kanye.rest")
+                .then(res => res.json())
+                .then(data => console.log(data.quote)
+                )
+
+        }
+
+
+        {
+
+            result: [
+                {
+                
+                    "gender": "female",
+                    "name": {
+                        "title": "Ms",
+                        "first": "Inaya",
+                        "last": "Bourgeois"
+                    },
+                    "location": {
+                        "street": {
+                            "number": 8988,
+                            "name": "Esplanade du 9 Novembre 1989"
+                        },
+                        "city": "Reims",
+                        "state": "Val-de-Marne",
+                        "country": "France",
+                        "postcode": 23017,
+                        "coordinates": {
+                            "latitude": "-20.1549",
+                            "longitude": "110.4243"
+                        },
+                        "timezone": {
+                            "offset": "-9:00",
+                            "description": "Alaska"
+                        }
+                    }
+                }
+            ]
+
+        }
+
+    </script>
+</body>
+
+</html>

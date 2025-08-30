@@ -1,0 +1,29 @@
+  .country {
+      border: 2px solid rgb(211, 10, 10);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+  }
+
+  #countries {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  button {
+
+      padding: 15px 20px;
+      width: 100%;
+      border: 2px solid black;
+      border-radius: 20px;
+      background-color:cadetblue;
+      cursor: pointer;
+      font-size: larger;
+      
+  }
+  img{
+    display: flex;
+    margin: auto;
+  }
+  
